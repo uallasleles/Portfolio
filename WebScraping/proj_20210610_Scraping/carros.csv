@@ -1,0 +1,407 @@
+car_name;from;mpg;cylinders;horsepower;weight;acceleration
+Chevrolet Chevelle Malibu;(1970, USA);18.0 mpg;8;130;3,504;12.0
+Buick Skylark 320;(1970, USA);15.0 mpg;8;165;3,693;11.5
+Plymouth Satellite;(1970, USA);18.0 mpg;8;150;3,436;11.0
+Amc Rebel Sst;(1970, USA);16.0 mpg;8;150;3,433;12.0
+Ford Torino;(1970, USA);17.0 mpg;8;140;3,449;10.5
+Ford Galaxie 500;(1970, USA);15.0 mpg;8;198;4,341;10.0
+Chevrolet Impala;(1970, USA);14.0 mpg;8;220;4,354;9.0
+Plymouth Fury Iii;(1970, USA);14.0 mpg;8;215;4,312;8.5
+Pontiac Catalina;(1970, USA);14.0 mpg;8;225;4,425;10.0
+Amc Ambassador Dpl;(1970, USA);15.0 mpg;8;190;3,850;8.5
+Citroen Ds-21 Pallas;(1970, Europe);- mpg;4;115;3,090;17.5
+Chevrolet Chevelle Concours (Sw);(1970, USA);- mpg;8;165;4,142;11.5
+Ford Torino (Sw);(1970, USA);- mpg;8;153;4,034;11.0
+Plymouth Satellite (Sw);(1970, USA);- mpg;8;175;4,166;10.5
+Amc Rebel Sst (Sw);(1970, USA);- mpg;8;175;3,850;11.0
+Dodge Challenger Se;(1970, USA);15.0 mpg;8;170;3,563;10.0
+Plymouth 'Cuda 340;(1970, USA);14.0 mpg;8;160;3,609;8.0
+Ford Mustang Boss 302;(1970, USA);- mpg;8;140;3,353;8.0
+Chevrolet Monte Carlo;(1970, USA);15.0 mpg;8;150;3,761;9.5
+Buick Estate Wagon (Sw);(1970, USA);14.0 mpg;8;225;3,086;10.0
+Toyota Corona Mark Ii;(1970, Japan);24.0 mpg;4;95;2,372;15.0
+Plymouth Duster;(1970, USA);22.0 mpg;6;95;2,833;15.5
+Amc Hornet;(1970, USA);18.0 mpg;6;97;2,774;15.5
+Ford Maverick;(1970, USA);21.0 mpg;6;85;2,587;16.0
+Datsun Pl510;(1970, Japan);27.0 mpg;4;88;2,130;14.5
+Volkswagen 1131 Deluxe Sedan;(1970, Europe);26.0 mpg;4;46;1,835;20.5
+Peugeot 504;(1970, Europe);25.0 mpg;4;87;2,672;17.5
+Audi 100 Ls;(1970, Europe);24.0 mpg;4;90;2,430;14.5
+Saab 99E;(1970, Europe);25.0 mpg;4;95;2,375;17.5
+Bmw 2002;(1970, Europe);26.0 mpg;4;113;2,234;12.5
+Amc Gremlin;(1970, USA);21.0 mpg;6;90;2,648;15.0
+Ford F250;(1970, USA);10.0 mpg;8;215;4,615;14.0
+Chevy C20;(1970, USA);10.0 mpg;8;200;4,376;15.0
+Dodge D200;(1970, USA);11.0 mpg;8;210;4,382;13.5
+Hi 1200D;(1970, USA);9.0 mpg;8;193;4,732;18.5
+Datsun Pl510;(1971, Japan);27.0 mpg;4;88;2,130;14.5
+Chevrolet Vega 2300;(1971, USA);28.0 mpg;4;90;2,264;15.5
+Toyota Corona;(1971, Japan);25.0 mpg;4;95;2,228;14.0
+Ford Pinto;(1971, USA);25.0 mpg;4;-;2,046;19.0
+Volkswagen Super Beetle 117;(1971, Europe);- mpg;4;48;1,978;20.0
+Amc Gremlin;(1971, USA);19.0 mpg;6;100;2,634;13.0
+Plymouth Satellite Custom;(1971, USA);16.0 mpg;6;105;3,439;15.5
+Chevrolet Chevelle Malibu;(1971, USA);17.0 mpg;6;100;3,329;15.5
+Ford Torino 500;(1971, USA);19.0 mpg;6;88;3,302;15.5
+Amc Matador;(1971, USA);18.0 mpg;6;100;3,288;15.5
+Chevrolet Impala;(1971, USA);14.0 mpg;8;165;4,209;12.0
+Pontiac Catalina Brougham;(1971, USA);14.0 mpg;8;175;4,464;11.5
+Ford Galaxie 500;(1971, USA);14.0 mpg;8;153;4,154;13.5
+Plymouth Fury Iii;(1971, USA);14.0 mpg;8;150;4,096;13.0
+Dodge Monaco (Sw);(1971, USA);12.0 mpg;8;180;4,955;11.5
+Ford Country Squire (Sw);(1971, USA);13.0 mpg;8;170;4,746;12.0
+Pontiac Safari (Sw);(1971, USA);13.0 mpg;8;175;5,140;12.0
+Amc Hornet Sportabout (Sw);(1971, USA);18.0 mpg;6;110;2,962;13.5
+Chevrolet Vega (Sw);(1971, USA);22.0 mpg;4;72;2,408;19.0
+Pontiac Firebird;(1971, USA);19.0 mpg;6;100;3,282;15.0
+Ford Mustang;(1971, USA);18.0 mpg;6;88;3,139;14.5
+Mercury Capri 2000;(1971, USA);23.0 mpg;4;86;2,220;14.0
+Opel 1900;(1971, Europe);28.0 mpg;4;90;2,123;14.0
+Peugeot 304;(1971, Europe);30.0 mpg;4;70;2,074;19.5
+Fiat 124B;(1971, Europe);30.0 mpg;4;76;2,065;14.5
+Toyota Corolla 1200;(1971, Japan);31.0 mpg;4;65;1,773;19.0
+Datsun 1200;(1971, Japan);35.0 mpg;4;69;1,613;18.0
+Volkswagen Model 111;(1971, Europe);27.0 mpg;4;60;1,834;19.0
+Plymouth Cricket;(1971, USA);26.0 mpg;4;70;1,955;20.5
+Toyota Corona Hardtop;(1972, Japan);24.0 mpg;4;95;2,278;15.5
+Dodge Colt Hardtop;(1972, USA);25.0 mpg;4;80;2,126;17.0
+Volkswagen Type 3;(1972, Europe);23.0 mpg;4;54;2,254;23.5
+Chevrolet Vega;(1972, USA);20.0 mpg;4;90;2,408;19.5
+Ford Pinto Runabout;(1972, USA);21.0 mpg;4;86;2,226;16.5
+Chevrolet Impala;(1972, USA);13.0 mpg;8;165;4,274;12.0
+Pontiac Catalina;(1972, USA);14.0 mpg;8;175;4,385;12.0
+Plymouth Fury Iii;(1972, USA);15.0 mpg;8;150;4,135;13.5
+Ford Galaxie 500;(1972, USA);14.0 mpg;8;153;4,129;13.0
+Amc Ambassador Sst;(1972, USA);17.0 mpg;8;150;3,672;11.5
+Mercury Marquis;(1972, USA);11.0 mpg;8;208;4,633;11.0
+Buick Lesabre Custom;(1972, USA);13.0 mpg;8;155;4,502;13.5
+Oldsmobile Delta 88 Royale;(1972, USA);12.0 mpg;8;160;4,456;13.5
+Chrysler Newport Royal;(1972, USA);13.0 mpg;8;190;4,422;12.5
+Mazda Rx2 Coupe;(1972, Japan);19.0 mpg;3;97;2,330;13.5
+Amc Matador (Sw);(1972, USA);15.0 mpg;8;150;3,892;12.5
+Chevrolet Chevelle Concours (Sw);(1972, USA);13.0 mpg;8;130;4,098;14.0
+Ford Gran Torino (Sw);(1972, USA);13.0 mpg;8;140;4,294;16.0
+Plymouth Satellite Custom (Sw);(1972, USA);14.0 mpg;8;150;4,077;14.0
+Volvo 145E (Sw);(1972, Europe);18.0 mpg;4;112;2,933;14.5
+Volkswagen 411 (Sw);(1972, Europe);22.0 mpg;4;76;2,511;18.0
+Peugeot 504 (Sw);(1972, Europe);21.0 mpg;4;87;2,979;19.5
+Renault 12 (Sw);(1972, Europe);26.0 mpg;4;69;2,189;18.0
+Ford Pinto (Sw);(1972, USA);22.0 mpg;4;86;2,395;16.0
+Datsun 510 (Sw);(1972, Japan);28.0 mpg;4;92;2,288;17.0
+Toyouta Corona Mark Ii (Sw);(1972, Japan);23.0 mpg;4;97;2,506;14.5
+Dodge Colt (Sw);(1972, USA);28.0 mpg;4;80;2,164;15.0
+Toyota Corolla 1600 (Sw);(1972, Japan);27.0 mpg;4;88;2,100;16.5
+Buick Century 350;(1973, USA);13.0 mpg;8;175;4,100;13.0
+Amc Matador;(1973, USA);14.0 mpg;8;150;3,672;11.5
+Chevrolet Malibu;(1973, USA);13.0 mpg;8;145;3,988;13.0
+Ford Gran Torino;(1973, USA);14.0 mpg;8;137;4,042;14.5
+Dodge Coronet Custom;(1973, USA);15.0 mpg;8;150;3,777;12.5
+Mercury Marquis Brougham;(1973, USA);12.0 mpg;8;198;4,952;11.5
+Chevrolet Caprice Classic;(1973, USA);13.0 mpg;8;150;4,464;12.0
+Ford Ltd;(1973, USA);13.0 mpg;8;158;4,363;13.0
+Plymouth Fury Gran Sedan;(1973, USA);14.0 mpg;8;150;4,237;14.5
+Chrysler New Yorker Brougham;(1973, USA);13.0 mpg;8;215;4,735;11.0
+Buick Electra 225 Custom;(1973, USA);12.0 mpg;8;225;4,951;11.0
+Amc Ambassador Brougham;(1973, USA);13.0 mpg;8;175;3,821;11.0
+Plymouth Valiant;(1973, USA);18.0 mpg;6;105;3,121;16.5
+Chevrolet Nova Custom;(1973, USA);16.0 mpg;6;100;3,278;18.0
+Amc Hornet;(1973, USA);18.0 mpg;6;100;2,945;16.0
+Ford Maverick;(1973, USA);18.0 mpg;6;88;3,021;16.5
+Plymouth Duster;(1973, USA);23.0 mpg;6;95;2,904;16.0
+Volkswagen Super Beetle;(1973, Europe);26.0 mpg;4;46;1,950;21.0
+Chevrolet Impala;(1973, USA);11.0 mpg;8;150;4,997;14.0
+Ford Country;(1973, USA);12.0 mpg;8;167;4,906;12.5
+Plymouth Custom Suburb;(1973, USA);13.0 mpg;8;170;4,654;13.0
+Oldsmobile Vista Cruiser;(1973, USA);12.0 mpg;8;180;4,499;12.5
+Amc Gremlin;(1973, USA);18.0 mpg;6;100;2,789;15.0
+Toyota Carina;(1973, Japan);20.0 mpg;4;88;2,279;19.0
+Chevrolet Vega;(1973, USA);21.0 mpg;4;72;2,401;19.5
+Datsun 610;(1973, Japan);22.0 mpg;4;94;2,379;16.5
+Maxda Rx3;(1973, Japan);18.0 mpg;3;90;2,124;13.5
+Ford Pinto;(1973, USA);19.0 mpg;4;85;2,310;18.5
+Mercury Capri V6;(1973, USA);21.0 mpg;6;107;2,472;14.0
+Fiat 124 Sport Coupe;(1973, Europe);26.0 mpg;4;90;2,265;15.5
+Chevrolet Monte Carlo S;(1973, USA);15.0 mpg;8;145;4,082;13.0
+Pontiac Grand Prix;(1973, USA);16.0 mpg;8;230;4,278;9.5
+Fiat 128;(1973, Europe);29.0 mpg;4;49;1,867;19.5
+Opel Manta;(1973, Europe);24.0 mpg;4;75;2,158;15.5
+Audi 100Ls;(1973, Europe);20.0 mpg;4;91;2,582;14.0
+Volvo 144Ea;(1973, Europe);19.0 mpg;4;112;2,868;15.5
+Dodge Dart Custom;(1973, USA);15.0 mpg;8;150;3,399;11.0
+Saab 99Le;(1973, Europe);24.0 mpg;4;110;2,660;14.0
+Toyota Mark Ii;(1973, Japan);20.0 mpg;6;122;2,807;13.5
+Oldsmobile Omega;(1973, USA);11.0 mpg;8;180;3,664;11.0
+Plymouth Duster;(1974, USA);20.0 mpg;6;95;3,102;16.5
+Ford Maverick;(1974, USA);21.0 mpg;6;-;2,875;17.0
+Amc Hornet;(1974, USA);19.0 mpg;6;100;2,901;16.0
+Chevrolet Nova;(1974, USA);15.0 mpg;6;100;3,336;17.0
+Datsun B210;(1974, Japan);31.0 mpg;4;67;1,950;19.0
+Ford Pinto;(1974, USA);26.0 mpg;4;80;2,451;16.5
+Toyota Corolla 1200;(1974, Japan);32.0 mpg;4;65;1,836;21.0
+Chevrolet Vega;(1974, USA);25.0 mpg;4;75;2,542;17.0
+Chevrolet Chevelle Malibu Classic;(1974, USA);16.0 mpg;6;100;3,781;17.0
+Amc Matador;(1974, USA);16.0 mpg;6;110;3,632;18.0
+Plymouth Satellite Sebring;(1974, USA);18.0 mpg;6;105;3,613;16.5
+Ford Gran Torino;(1974, USA);16.0 mpg;8;140;4,141;14.0
+Buick Century Luxus (Sw);(1974, USA);13.0 mpg;8;150;4,699;14.5
+Dodge Coronet Custom (Sw);(1974, USA);14.0 mpg;8;150;4,457;13.5
+Ford Gran Torino (Sw);(1974, USA);14.0 mpg;8;140;4,638;16.0
+Amc Matador (Sw);(1974, USA);14.0 mpg;8;150;4,257;15.5
+Audi Fox;(1974, Europe);29.0 mpg;4;83;2,219;16.5
+Volkswagen Dasher;(1974, Europe);26.0 mpg;4;67;1,963;15.5
+Opel Manta;(1974, Europe);26.0 mpg;4;78;2,300;14.5
+Toyota Corona;(1974, Japan);31.0 mpg;4;52;1,649;16.5
+Datsun 710;(1974, Japan);32.0 mpg;4;61;2,003;19.0
+Dodge Colt;(1974, USA);28.0 mpg;4;75;2,125;14.5
+Fiat 128;(1974, Europe);24.0 mpg;4;75;2,108;15.5
+Fiat 124 Tc;(1974, Europe);26.0 mpg;4;75;2,246;14.0
+Honda Civic;(1974, Japan);24.0 mpg;4;97;2,489;15.0
+Subaru;(1974, Japan);26.0 mpg;4;93;2,391;15.5
+Fiat X1.9;(1974, Europe);31.0 mpg;4;67;2,000;16.0
+Plymouth Valiant Custom;(1975, USA);19.0 mpg;6;95;3,264;16.0
+Chevrolet Nova;(1975, USA);18.0 mpg;6;105;3,459;16.0
+Mercury Monarch;(1975, USA);15.0 mpg;6;72;3,432;21.0
+Ford Maverick;(1975, USA);15.0 mpg;6;72;3,158;19.5
+Pontiac Catalina;(1975, USA);16.0 mpg;8;170;4,668;11.5
+Chevrolet Bel Air;(1975, USA);15.0 mpg;8;145;4,440;14.0
+Plymouth Grand Fury;(1975, USA);16.0 mpg;8;150;4,498;14.5
+Ford Ltd;(1975, USA);14.0 mpg;8;148;4,657;13.5
+Buick Century;(1975, USA);17.0 mpg;6;110;3,907;21.0
+Chevroelt Chevelle Malibu;(1975, USA);16.0 mpg;6;105;3,897;18.5
+Amc Matador;(1975, USA);15.0 mpg;6;110;3,730;19.0
+Plymouth Fury;(1975, USA);18.0 mpg;6;95;3,785;19.0
+Buick Skyhawk;(1975, USA);21.0 mpg;6;110;3,039;15.0
+Chevrolet Monza 2+2;(1975, USA);20.0 mpg;8;110;3,221;13.5
+Ford Mustang Ii;(1975, USA);13.0 mpg;8;129;3,169;12.0
+Toyota Corolla;(1975, Japan);29.0 mpg;4;75;2,171;16.0
+Ford Pinto;(1975, USA);23.0 mpg;4;83;2,639;17.0
+Amc Gremlin;(1975, USA);20.0 mpg;6;100;2,914;16.0
+Pontiac Astro;(1975, USA);23.0 mpg;4;78;2,592;18.5
+Toyota Corona;(1975, Japan);24.0 mpg;4;96;2,702;13.5
+Volkswagen Dasher;(1975, Europe);25.0 mpg;4;71;2,223;16.5
+Datsun 710;(1975, Japan);24.0 mpg;4;97;2,545;17.0
+Ford Pinto;(1975, USA);18.0 mpg;6;97;2,984;14.5
+Volkswagen Rabbit;(1975, Europe);29.0 mpg;4;70;1,937;14.0
+Amc Pacer;(1975, USA);19.0 mpg;6;90;3,211;17.0
+Audi 100Ls;(1975, Europe);23.0 mpg;4;95;2,694;15.0
+Peugeot 504;(1975, Europe);23.0 mpg;4;88;2,957;17.0
+Volvo 244Dl;(1975, Europe);22.0 mpg;4;98;2,945;14.5
+Saab 99Le;(1975, Europe);25.0 mpg;4;115;2,671;13.5
+Honda Civic Cvcc;(1975, Japan);33.0 mpg;4;53;1,795;17.5
+Fiat 131;(1976, Europe);28.0 mpg;4;86;2,464;15.5
+Opel 1900;(1976, Europe);25.0 mpg;4;81;2,220;16.9
+Capri Ii;(1976, USA);25.0 mpg;4;92;2,572;14.9
+Dodge Colt;(1976, USA);26.0 mpg;4;79;2,255;17.7
+Renault 12Tl;(1976, Europe);27.0 mpg;4;83;2,202;15.3
+Chevrolet Chevelle Malibu Classic;(1976, USA);17.5 mpg;8;140;4,215;13.0
+Dodge Coronet Brougham;(1976, USA);16.0 mpg;8;150;4,190;13.0
+Amc Matador;(1976, USA);15.5 mpg;8;120;3,962;13.9
+Ford Gran Torino;(1976, USA);14.5 mpg;8;152;4,215;12.8
+Plymouth Valiant;(1976, USA);22.0 mpg;6;100;3,233;15.4
+Chevrolet Nova;(1976, USA);22.0 mpg;6;105;3,353;14.5
+Ford Maverick;(1976, USA);24.0 mpg;6;81;3,012;17.6
+Amc Hornet;(1976, USA);22.5 mpg;6;90;3,085;17.6
+Chevrolet Chevette;(1976, USA);29.0 mpg;4;52;2,035;22.2
+Chevrolet Woody;(1976, USA);24.5 mpg;4;60;2,164;22.1
+Vw Rabbit;(1976, Europe);29.0 mpg;4;70;1,937;14.2
+Honda Civic;(1976, Japan);33.0 mpg;4;53;1,795;17.4
+Dodge Aspen Se;(1976, USA);20.0 mpg;6;100;3,651;17.7
+Ford Granada Ghia;(1976, USA);18.0 mpg;6;78;3,574;21.0
+Pontiac Ventura Sj;(1976, USA);18.5 mpg;6;110;3,645;16.2
+Amc Pacer D/L;(1976, USA);17.5 mpg;6;95;3,193;17.8
+Volkswagen Rabbit;(1976, Europe);29.5 mpg;4;71;1,825;12.2
+Datsun B-210;(1976, Japan);32.0 mpg;4;70;1,990;17.0
+Toyota Corolla;(1976, Japan);28.0 mpg;4;75;2,155;16.4
+Ford Pinto;(1976, USA);26.5 mpg;4;72;2,565;13.6
+Volvo 245;(1976, Europe);20.0 mpg;4;102;3,150;15.7
+Plymouth Volare Premier V8;(1976, USA);13.0 mpg;8;150;3,940;13.2
+Peugeot 504;(1976, Europe);19.0 mpg;4;88;3,270;21.9
+Toyota Mark Ii;(1976, Japan);19.0 mpg;6;108;2,930;15.5
+Mercedes-Benz 280S;(1976, Europe);16.5 mpg;6;120;3,820;16.7
+Cadillac Seville;(1976, USA);16.5 mpg;8;180;4,380;12.1
+Chevy C10;(1976, USA);13.0 mpg;8;145;4,055;12.0
+Ford F108;(1976, USA);13.0 mpg;8;130;3,870;15.0
+Dodge D100;(1976, USA);13.0 mpg;8;150;3,755;14.0
+Honda Accord Cvcc;(1977, Japan);31.5 mpg;4;68;2,045;18.5
+Buick Opel Isuzu Deluxe;(1977, USA);30.0 mpg;4;80;2,155;14.8
+Renault 5 Gtl;(1977, Europe);36.0 mpg;4;58;1,825;18.6
+Plymouth Arrow Gs;(1977, USA);25.5 mpg;4;96;2,300;15.5
+Datsun F-10 Hatchback;(1977, Japan);33.5 mpg;4;70;1,945;16.8
+Chevrolet Caprice Classic;(1977, USA);17.5 mpg;8;145;3,880;12.5
+Oldsmobile Cutlass Supreme;(1977, USA);17.0 mpg;8;110;4,060;19.0
+Dodge Monaco Brougham;(1977, USA);15.5 mpg;8;145;4,140;13.7
+Mercury Cougar Brougham;(1977, USA);15.0 mpg;8;130;4,295;14.9
+Chevrolet Concours;(1977, USA);17.5 mpg;6;110;3,520;16.4
+Buick Skylark;(1977, USA);20.5 mpg;6;105;3,425;16.9
+Plymouth Volare Custom;(1977, USA);19.0 mpg;6;100;3,630;17.7
+Ford Granada;(1977, USA);18.5 mpg;6;98;3,525;19.0
+Pontiac Grand Prix Lj;(1977, USA);16.0 mpg;8;180;4,220;11.1
+Chevrolet Monte Carlo Landau;(1977, USA);15.5 mpg;8;170;4,165;11.4
+Chrysler Cordoba;(1977, USA);15.5 mpg;8;190;4,325;12.2
+Ford Thunderbird;(1977, USA);16.0 mpg;8;149;4,335;14.5
+Volkswagen Rabbit Custom;(1977, Europe);29.0 mpg;4;78;1,940;14.5
+Pontiac Sunbird Coupe;(1977, USA);24.5 mpg;4;88;2,740;16.0
+Toyota Corolla Liftback;(1977, Japan);26.0 mpg;4;75;2,265;18.2
+Ford Mustang Ii 2+2;(1977, USA);25.5 mpg;4;89;2,755;15.8
+Chevrolet Chevette;(1977, USA);30.5 mpg;4;63;2,051;17.0
+Dodge Colt M/M;(1977, USA);33.5 mpg;4;83;2,075;15.9
+Subaru Dl;(1977, Japan);30.0 mpg;4;67;1,985;16.4
+Volkswagen Dasher;(1977, Europe);30.5 mpg;4;78;2,190;14.1
+Datsun 810;(1977, Japan);22.0 mpg;6;97;2,815;14.5
+Bmw 320I;(1977, Europe);21.5 mpg;4;110;2,600;12.8
+Mazda Rx-4;(1977, Japan);21.5 mpg;3;110;2,720;13.5
+Volkswagen Rabbit Custom Diesel;(1978, Europe);43.1 mpg;4;48;1,985;21.5
+Ford Fiesta;(1978, USA);36.1 mpg;4;66;1,800;14.4
+Mazda Glc Deluxe;(1978, Japan);32.8 mpg;4;52;1,985;19.4
+Datsun B210 Gx;(1978, Japan);39.4 mpg;4;70;2,070;18.6
+Honda Civic Cvcc;(1978, Japan);36.1 mpg;4;60;1,800;16.4
+Oldsmobile Cutlass Salon Brougham;(1978, USA);19.9 mpg;8;110;3,365;15.5
+Dodge Diplomat;(1978, USA);19.4 mpg;8;140;3,735;13.2
+Mercury Monarch Ghia;(1978, USA);20.2 mpg;8;139;3,570;12.8
+Pontiac Phoenix Lj;(1978, USA);19.2 mpg;6;105;3,535;19.2
+Chevrolet Malibu;(1978, USA);20.5 mpg;6;95;3,155;18.2
+Ford Fairmont (Auto);(1978, USA);20.2 mpg;6;85;2,965;15.8
+Ford Fairmont (Man);(1978, USA);25.1 mpg;4;88;2,720;15.4
+Plymouth Volare;(1978, USA);20.5 mpg;6;100;3,430;17.2
+Amc Concord;(1978, USA);19.4 mpg;6;90;3,210;17.2
+Buick Century Special;(1978, USA);20.6 mpg;6;105;3,380;15.8
+Mercury Zephyr;(1978, USA);20.8 mpg;6;85;3,070;16.7
+Dodge Aspen;(1978, USA);18.6 mpg;6;110;3,620;18.7
+Amc Concord D/L;(1978, USA);18.1 mpg;6;120;3,410;15.1
+Chevrolet Monte Carlo Landau;(1978, USA);19.2 mpg;8;145;3,425;13.2
+Buick Regal Sport Coupe (Turbo);(1978, USA);17.7 mpg;6;165;3,445;13.4
+Ford Futura;(1978, USA);18.1 mpg;8;139;3,205;11.2
+Dodge Magnum Xe;(1978, USA);17.5 mpg;8;140;4,080;13.7
+Chevrolet Chevette;(1978, USA);30.0 mpg;4;68;2,155;16.5
+Toyota Corona;(1978, Japan);27.5 mpg;4;95;2,560;14.2
+Datsun 510;(1978, Japan);27.2 mpg;4;97;2,300;14.7
+Dodge Omni;(1978, USA);30.9 mpg;4;75;2,230;14.5
+Toyota Celica Gt Liftback;(1978, Japan);21.1 mpg;4;95;2,515;14.8
+Plymouth Sapporo;(1978, USA);23.2 mpg;4;105;2,745;16.7
+Oldsmobile Starfire Sx;(1978, USA);23.8 mpg;4;85;2,855;17.6
+Datsun 200-Sx;(1978, Japan);23.9 mpg;4;97;2,405;14.9
+Audi 5000;(1978, Europe);20.3 mpg;5;103;2,830;15.9
+Volvo 264Gl;(1978, Europe);17.0 mpg;6;125;3,140;13.6
+Saab 99Gle;(1978, Europe);21.6 mpg;4;115;2,795;15.7
+Peugeot 604Sl;(1978, Europe);16.2 mpg;6;133;3,410;15.8
+Volkswagen Scirocco;(1978, Europe);31.5 mpg;4;71;1,990;14.9
+Honda Accord Lx;(1978, Japan);29.5 mpg;4;68;2,135;16.6
+Pontiac Lemans V6;(1979, USA);21.5 mpg;6;115;3,245;15.4
+Mercury Zephyr 6;(1979, USA);19.8 mpg;6;85;2,990;18.2
+Ford Fairmont 4;(1979, USA);22.3 mpg;4;88;2,890;17.3
+Amc Concord Dl 6;(1979, USA);20.2 mpg;6;90;3,265;18.2
+Dodge Aspen 6;(1979, USA);20.6 mpg;6;110;3,360;16.6
+Chevrolet Caprice Classic;(1979, USA);17.0 mpg;8;130;3,840;15.4
+Ford Ltd Landau;(1979, USA);17.6 mpg;8;129;3,725;13.4
+Mercury Grand Marquis;(1979, USA);16.5 mpg;8;138;3,955;13.2
+Dodge St. Regis;(1979, USA);18.2 mpg;8;135;3,830;15.2
+Buick Estate Wagon (Sw);(1979, USA);16.9 mpg;8;155;4,360;14.9
+Ford Country Squire (Sw);(1979, USA);15.5 mpg;8;142;4,054;14.3
+Chevrolet Malibu Classic (Sw);(1979, USA);19.2 mpg;8;125;3,605;15.0
+Chrysler Lebaron Town @ Country (Sw);(1979, USA);18.5 mpg;8;150;3,940;13.0
+Vw Rabbit Custom;(1979, Europe);31.9 mpg;4;71;1,925;14.0
+Maxda Glc Deluxe;(1979, Japan);34.1 mpg;4;65;1,975;15.2
+Dodge Colt Hatchback Custom;(1979, USA);35.7 mpg;4;80;1,915;14.4
+Amc Spirit Dl;(1979, USA);27.4 mpg;4;80;2,670;15.0
+Mercedes Benz 300D;(1979, Europe);25.4 mpg;5;77;3,530;20.1
+Cadillac Eldorado;(1979, USA);23.0 mpg;8;125;3,900;17.4
+Peugeot 504;(1979, Europe);27.2 mpg;4;71;3,190;24.8
+Oldsmobile Cutlass Salon Brougham;(1979, USA);23.9 mpg;8;90;3,420;22.2
+Plymouth Horizon;(1979, USA);34.2 mpg;4;70;2,200;13.2
+Plymouth Horizon Tc3;(1979, USA);34.5 mpg;4;70;2,150;14.9
+Datsun 210;(1979, Japan);31.8 mpg;4;65;2,020;19.2
+Fiat Strada Custom;(1979, Europe);37.3 mpg;4;69;2,130;14.7
+Buick Skylark Limited;(1979, USA);28.4 mpg;4;90;2,670;16.0
+Chevrolet Citation;(1979, USA);28.8 mpg;6;115;2,595;11.3
+Oldsmobile Omega Brougham;(1979, USA);26.8 mpg;6;115;2,700;12.9
+Pontiac Phoenix;(1979, USA);33.5 mpg;4;90;2,556;13.2
+Vw Rabbit;(1980, Europe);41.5 mpg;4;76;2,144;14.7
+Toyota Corolla Tercel;(1980, Japan);38.1 mpg;4;60;1,968;18.8
+Chevrolet Chevette;(1980, USA);32.1 mpg;4;70;2,120;15.5
+Datsun 310;(1980, Japan);37.2 mpg;4;65;2,019;16.4
+Chevrolet Citation;(1980, USA);28.0 mpg;4;90;2,678;16.5
+Ford Fairmont;(1980, USA);26.4 mpg;4;88;2,870;18.1
+Amc Concord;(1980, USA);24.3 mpg;4;90;3,003;20.1
+Dodge Aspen;(1980, USA);19.1 mpg;6;90;3,381;18.7
+Audi 4000;(1980, Europe);34.3 mpg;4;78;2,188;15.8
+Toyota Corona Liftback;(1980, Japan);29.8 mpg;4;90;2,711;15.5
+Mazda 626;(1980, Japan);31.3 mpg;4;75;2,542;17.5
+Datsun 510 Hatchback;(1980, Japan);37.0 mpg;4;92;2,434;15.0
+Toyota Corolla;(1980, Japan);32.2 mpg;4;75;2,265;15.2
+Mazda Glc;(1980, Japan);46.6 mpg;4;65;2,110;17.9
+Dodge Colt;(1980, USA);27.9 mpg;4;105;2,800;14.4
+Datsun 210;(1980, Japan);40.8 mpg;4;65;2,110;19.2
+Vw Rabbit C (Diesel);(1980, Europe);44.3 mpg;4;48;2,085;21.7
+Vw Dasher (Diesel);(1980, Europe);43.4 mpg;4;48;2,335;23.7
+Audi 5000S (Diesel);(1980, Europe);36.4 mpg;5;67;2,950;19.9
+Mercedes-Benz 240D;(1980, Europe);30.0 mpg;4;67;3,250;21.8
+Honda Civic 1500 Gl;(1980, Japan);44.6 mpg;4;67;1,850;13.8
+Renault Lecar Deluxe;(1980, Europe);40.9 mpg;4;-;1,835;17.3
+Subaru Dl;(1980, Japan);33.8 mpg;4;67;2,145;18.0
+Vokswagen Rabbit;(1980, Europe);29.8 mpg;4;62;1,845;15.3
+Datsun 280-Zx;(1980, Japan);32.7 mpg;6;132;2,910;11.4
+Mazda Rx-7 Gs;(1980, Japan);23.7 mpg;3;100;2,420;12.5
+Triumph Tr7 Coupe;(1980, Europe);35.0 mpg;4;88;2,500;15.1
+Ford Mustang Cobra;(1980, USA);23.6 mpg;4;-;2,905;14.3
+Honda Accord;(1980, Japan);32.4 mpg;4;72;2,290;17.0
+Plymouth Reliant;(1981, USA);27.2 mpg;4;84;2,490;15.7
+Buick Skylark;(1981, USA);26.6 mpg;4;84;2,635;16.4
+Dodge Aries Wagon (Sw);(1981, USA);25.8 mpg;4;92;2,620;14.4
+Chevrolet Citation;(1981, USA);23.5 mpg;6;110;2,725;12.6
+Plymouth Reliant;(1981, USA);30.0 mpg;4;84;2,385;12.9
+Toyota Starlet;(1981, Japan);39.1 mpg;4;58;1,755;16.9
+Plymouth Champ;(1981, USA);39.0 mpg;4;64;1,875;16.4
+Honda Civic 1300;(1981, Japan);35.1 mpg;4;60;1,760;16.1
+Subaru;(1981, Japan);32.3 mpg;4;67;2,065;17.8
+Datsun 210 Mpg;(1981, Japan);37.0 mpg;4;65;1,975;19.4
+Toyota Tercel;(1981, Japan);37.7 mpg;4;62;2,050;17.3
+Mazda Glc 4;(1981, Japan);34.1 mpg;4;68;1,985;16.0
+Plymouth Horizon 4;(1981, USA);34.7 mpg;4;63;2,215;14.9
+Ford Escort 4W;(1981, USA);34.4 mpg;4;65;2,045;16.2
+Ford Escort 2H;(1981, USA);29.9 mpg;4;65;2,380;20.7
+Volkswagen Jetta;(1981, Europe);33.0 mpg;4;74;2,190;14.2
+Renault 18I;(1981, Europe);34.5 mpg;4;-;2,320;15.8
+Honda Prelude;(1981, Japan);33.7 mpg;4;75;2,210;14.4
+Toyota Corolla;(1981, Japan);32.4 mpg;4;75;2,350;16.8
+Datsun 200Sx;(1981, Japan);32.9 mpg;4;100;2,615;14.8
+Mazda 626;(1981, Japan);31.6 mpg;4;74;2,635;18.3
+Peugeot 505S Turbo Diesel;(1981, Europe);28.1 mpg;4;80;3,230;20.4
+Saab 900S;(1981, Europe);- mpg;4;110;2,800;15.4
+Volvo Diesel;(1981, Europe);30.7 mpg;6;76;3,160;19.6
+Toyota Cressida;(1981, Japan);25.4 mpg;6;116;2,900;12.6
+Datsun 810 Maxima;(1981, Japan);24.2 mpg;6;120;2,930;13.8
+Buick Century;(1981, USA);22.4 mpg;6;110;3,415;15.8
+Oldsmobile Cutlass Ls;(1981, USA);26.6 mpg;8;105;3,725;19.0
+Ford Granada Gl;(1981, USA);20.2 mpg;6;88;3,060;17.1
+Chrysler Lebaron Salon;(1981, USA);17.6 mpg;6;85;3,465;16.6
+Chevrolet Cavalier;(1982, USA);28.0 mpg;4;88;2,605;19.6
+Chevrolet Cavalier Wagon;(1982, USA);27.0 mpg;4;88;2,640;18.6
+Chevrolet Cavalier 2-Door;(1982, USA);34.0 mpg;4;88;2,395;18.0
+Pontiac J2000 Se Hatchback;(1982, USA);31.0 mpg;4;85;2,575;16.2
+Dodge Aries Se;(1982, USA);29.0 mpg;4;84;2,525;16.0
+Pontiac Phoenix;(1982, USA);27.0 mpg;4;90;2,735;18.0
+Ford Fairmont Futura;(1982, USA);24.0 mpg;4;92;2,865;16.4
+Amc Concord Dl;(1982, USA);23.0 mpg;4;-;3,035;20.5
+Volkswagen Rabbit L;(1982, Europe);36.0 mpg;4;74;1,980;15.3
+Mazda Glc Custom L;(1982, Japan);37.0 mpg;4;68;2,025;18.2
+Mazda Glc Custom;(1982, Japan);31.0 mpg;4;68;1,970;17.6
+Plymouth Horizon Miser;(1982, USA);38.0 mpg;4;63;2,125;14.7
+Mercury Lynx L;(1982, USA);36.0 mpg;4;70;2,125;17.3
+Nissan Stanza Xe;(1982, Japan);36.0 mpg;4;88;2,160;14.5
+Honda Accord;(1982, Japan);36.0 mpg;4;75;2,205;14.5
+Toyota Corolla;(1982, Japan);34.0 mpg;4;70;2,245;16.9
+Honda Civic;(1982, Japan);38.0 mpg;4;67;1,965;15.0
+Honda Civic (Auto);(1982, Japan);32.0 mpg;4;67;1,965;15.7
+Datsun 310 Gx;(1982, Japan);38.0 mpg;4;67;1,995;16.2
+Buick Century Limited;(1982, USA);25.0 mpg;6;110;2,945;16.4
+Oldsmobile Cutlass Ciera (Diesel);(1982, USA);38.0 mpg;6;85;3,015;17.0
+Chrysler Lebaron Medallion;(1982, USA);26.0 mpg;4;92;2,585;14.5
+Ford Granada L;(1982, USA);22.0 mpg;6;112;2,835;14.7
+Toyota Celica Gt;(1982, Japan);32.0 mpg;4;96;2,665;13.9
+Dodge Charger 2.2;(1982, USA);36.0 mpg;4;84;2,370;13.0
+Chevrolet Camaro;(1982, USA);27.0 mpg;4;90;2,950;17.3
+Ford Mustang Gl;(1982, USA);27.0 mpg;4;86;2,790;15.6
+Vw Pickup;(1982, Europe);44.0 mpg;4;52;2,130;24.6
+Dodge Rampage;(1982, USA);32.0 mpg;4;84;2,295;11.6
+Ford Ranger;(1982, USA);28.0 mpg;4;79;2,625;18.6
+Chevy S-10;(1982, USA);31.0 mpg;4;82;2,720;19.4
