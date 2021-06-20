@@ -1,0 +1,48 @@
+___
+# Pré-Processamento
+
+___
+## Escala e Normalização
+
+Como o intervalo de valores dos dados brutos varia muito, em alguns algoritmos de aprendizado de máquina, as funções objetivas não funcionarão corretamente sem [normalização](https://en.wikipedia.org/wiki/Normalization_(statistics)). Outra razão pela qual o dimensionamento de recursos é aplicado é que a [descida do gradiente](https://en.wikipedia.org/wiki/Gradient_descent) converge muito mais rapidamente com o dimensionamento de recursos do que sem ele.
+
+- Métodos: *[Feature Scaling](https://en.wikipedia.org/wiki/Feature_scaling)*
+  
+  (@) **Re-escalonar (Normalização Min-Max):** é o método mais simples e consiste em redimensionar o intervalo de recursos para dimensionar o intervalo em [0, 1] ou [-1, 1].
+  
+  (@) **Escore-Z (Padronização):** No aprendizado de máquina, podemos lidar com vários tipos de dados, por exemplo, sinais de áudio e valores de pixel para dados de imagem, e esses dados podem incluir várias dimensões. A padronização de recursos faz com que os valores de cada recurso nos dados tenham média zero (ao subtrair a média no numerador) e variação de unidade. Esse método é amplamente utilizado para normalização em muitos algoritmos de aprendizado de máquina (por exemplo, máquinas de vetores de suporte, regressão logística e redes neurais artificiais).
+  O método geral de cálculo é determinar a média de distribuição e o desvio padrão para cada recurso. Em seguida, subtraímos a média de cada recurso. Em seguida, dividimos os valores (a média já está subtraída) de cada recurso pelo seu desvio padrão.
+
+### Normalização (Min-Max)
+
+```{r Min-Max}
+
+```
+
+### Padronização (Z-Score)
+
+```{r Z-Score}
+z.trn <- dget(file = "../datasets/aed_trn.R")
+# Padroniza
+z.trn[c(var.num, var.num_con)] <- sapply(z.trn[c(var.num, var.num_con)], scale)
+
+z.tst <- dget(file = "../datasets/etl_tst.R")
+# Padroniza
+z.tst[c(var.num, var.num_con)] <- sapply(z.tst[c(var.num, var.num_con)], scale)
+```
+
+```{r Exporta Treino e Teste Padronizados}
+# Exporta
+dput(z.trn, file = "../datasets/z_trn.R")
+dput(z.tst, file = "../datasets/z_tst.R")
+```
+
+```{r Apresenta Padronização}
+stargazer(aed.trn, type = "text")
+stargazer(z.trn, type = "text")
+```
+
+## Feature Selection
+```{r Feature Selection}
+
+```

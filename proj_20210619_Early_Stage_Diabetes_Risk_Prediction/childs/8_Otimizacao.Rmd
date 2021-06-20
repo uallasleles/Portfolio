@@ -1,0 +1,11 @@
+___
+# Otimização
+
+```{r Função de Custo, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+```
+
+TÉCNICA: Dobra do valor de uma variável significativa.
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+```

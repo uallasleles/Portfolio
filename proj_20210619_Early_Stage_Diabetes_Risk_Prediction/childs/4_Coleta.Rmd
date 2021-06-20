@@ -1,0 +1,191 @@
+___
+# Coleta
+
+___
+## Extração
+
+```{r Importando os Dados}
+source(file = "scripts/ds_load.R")
+```
+
+```{r Unindo os Datasets}
+source(file = "scripts/unindo_datasets.R")
+```
+
+___
+### Pré-visualização dos Dados
+
+```{r Pré-visualizando Treino}
+# TREINO: Pré-visualização das primeiras observações:
+etl.full %>% 
+    head() %>% 
+    tibble(format = "markdown", caption = "Primeiras observações")
+print(etl.full)
+```
+
+___
+## Resumo da Importação
+
+___
+### Dimensões
+
+```{r Dimensoes Treino}
+dim(treino) # Dimensões do dataset de treino
+```
+
+```{r Dimensões Teste}
+dim(teste)  # Dimensões do dataset de teste
+```
+
+___
+### Estrutura
+
+```{r Estrutura Treino}
+str(titanic) # Estrutura do dataset
+```
+
+___
+## Dicionário de Atributos  
+
+```{r Dicionario de Atributos}
+# 1    PassengerId: ID
+# 2       Survived: Sobrevivência
+#                   - 0 = Não
+#                   - 1 = Sim
+# 3         Pclass: Classe de ingresso | 1 = 1ª, 2 = 2ª, 3 = 3ª
+#                   - Uma proxy para o status socioeconômico (SES) 
+#                   1st = Upper 
+#                   2nd = Middle 
+#                   3rd = Lower
+# 4           Name: Nome
+# 5            Sex: Sexo
+# 6            Age: Idade em anos
+#                   - A idade é fracionária se menor que 1. 
+#                   - Se a idade é estimada, está na forma de xx.5
+# 7          SibSp: Nº de irmãos / Cônjuges a bordo do Titanic
+#                   - O conjunto de dados define as relações familiares 
+#                     dessa maneira:
+#                   Sibling = 
+#                       - irmão
+#                       - irmã
+#                       - meio-irmão
+#                       - meia-irmã
+#                   Spouse = 
+#                       - marido
+#                       - esposa
+#                       - (amantes e noivos foram ignorados)
+# 8          Parch: Nº de pais / filhos a bordo do Titanic
+#                   - O conjunto de dados define as relações familiares 
+#                     dessa maneira:
+#                   Parent = 
+#                       - mãe
+#                       - pai
+#                   Child = 
+#                       - filha
+#                       - filho
+#                       - enteada
+#                       - enteado
+#                       Algumas crianças viajavam apenas com uma babá, 
+#                       portanto:
+#                       - Parch = 0 para elas.
+# 9         Ticket: Número do bilhete
+# 10          Fare: Tarifa de passageiro
+# 11         Cabin: Número da cabine
+# 12      Embarked: Porto de embarcação
+#                   - C = Cherbourg
+#                   - Q = Queenstown
+#                   - S = Southampton
+```
+
+___
+## Limpeza e Transformação
+
+Esta etapa corresponde a um pré-processamento para então iniciar a análise exploratória de dados.
+
+___
+### Dados Faltantes
+
+```{r Verificando Missing Data, results="asis"}
+# Soma de valores missing por variável em Treino
+if(any(is.na(etl.full)))
+  {
+    subset(data.frame("SubTotal_NA" = apply(etl.full, 
+                                     2, 
+                                     function(x){
+                                       sum(is.na(x))
+                                       })), SubTotal_NA > 0)
+}
+```
+
+```{r Mapa de Valores Missing}
+missmap(etl.full)
+```
+
+___
+### Imputação de Dados
+
+```{r Imputando Missing Data}
+imp <- mice(etl.full, method='rf')
+imp_out <- complete(imp)
+etl.full$Age <- imp_out$Age
+etl.full$Fare <- imp_out$Fare
+```
+
+___
+### Transformando para Fator
+
+```{r Survived para fator e definindo labels}
+# Variável 'Survived'
+etl.trn$Survived <- factor(etl.trn$Survived, labels = c("Não", "Sim"))
+```
+
+```{r Pclass para fator e definindo os labels}
+# Variável 'Pclass'
+etl.full$Pclass <- factor(etl.full$Pclass, labels = c("1ª classe", "2ª classe", "3ª classe"), ordered = TRUE)
+```
+
+```{r Sex para fator e definindo os labels}
+# Variável 'Sex'
+etl.full$Sex <- factor(etl.full$Sex, labels = c(male = "Homem", female = "Mulher"))
+```
+
+```{r Embarked para fator e definindo os labels}
+# Variável 'Embarked'
+etl.full$Embarked <- factor(etl.full$Embarked, labels = c(" " = " - ", C = "Cherbourg", Q = "Queenstown", S = "Southampton"))
+```
+___
+### Separando os Datasets
+
+```{r Separando os datasets novamente}
+# Retornando os dados para os datasets originais
+etl.trn[,colnames(etl.full)] <- subset(etl.full, etl.full$idx == 'treino')
+etl.tst[,colnames(etl.full)]  <- subset(etl.full, etl.full$idx == 'teste')
+```
+___
+### Removendo Variáveis
+
+```{r Removendo variaveis}
+# Removendo variável 'PassengerId'
+etl.full$PassengerId <- NULL
+
+# Removendo variável 'PassengerId'
+etl.full$Name <- NULL
+
+# Removendo a variável 'flag'
+etl.full$Cabin <- NULL
+
+# Removendo a variável 'flag'
+etl.full$idx <- NULL
+etl.trn$idx <- NULL
+etl.trn$idx <- NULL
+```
+
+___
+### Resultado da E.T.L.
+
+```{r Exportando ETL}
+# write.csv(treino.etl, "../datasets/treino_etl.csv", row.names = FALSE)
+dput(etl.trn, file = "../datasets/etl_trn.R")
+dput(etl.tst, file = "../datasets/etl_tst.R")
+dput(etl.full, file = "../datasets/etl_full.R")
+```

@@ -1,0 +1,120 @@
+# Dependências
+
+## Diretório de Trabalho
+
+```{r Configurando o Diretório de Trabalho, echo=FALSE}
+setwd("C:/Users/ualla/Dropbox/GitHub/R/Titanic")
+getwd()
+```
+
+
+## Pacotes
+
+```{r Carregando Pacotes, message=FALSE, warning=FALSE}
+require(moments) # Coeficiente de Assimetria
+
+#install.packages("rvest")
+require(rvest) # %>% - Concatenação no uso de funções
+
+# install.packages("fdth")
+require(fdth) # Execute tabelas de distribuição de frequência, histogramas e polígonos associados de objetos vetoriais, data.frame e matriz para variáveis numéricas e categóricas.
+
+# install.packages("tidyverse")
+require(tidyverse) # Para função tibble()
+
+# install.packages("gmodels")
+require(gmodels)
+
+# install.packages("mice")
+require(mice)
+
+# Scatterplot Matrix
+# install.packages("psych")
+require(psych)
+
+# install.packages('stargazer')
+require(stargazer)
+
+# Gerando uma curva ROC em R
+# install.packages("ROCR")
+library(ROCR)
+
+# install.packages("e1071")
+require(e1071)
+
+# Gerando Confusion Matrix com o Caret
+# install.packages("caret")
+library(caret)
+
+# install.packages("Amelia")
+require(Amelia) # missmap - Mapa de valores missing
+
+require(xtable)
+# options(xtable.floating = FALSE)
+# options(xtable.timestamp = "")
+
+#install.packages("DT")
+require(DT)
+
+require(knitr)
+
+# require(lemon)
+# knit_print.data.frame <- lemon_print
+```
+
+## Funções
+
+```{r Funcao Moda}
+# Função para cálculo da moda.
+moda <- function(dados)
+    {
+        vetor = table(as.vector(dados))
+        m = names(vetor)[vetor == max(vetor)]
+        return(m)
+    }
+```
+
+```{r}
+rmarkdown::render("childs/2_Definicao_do_Problema.Rmd")
+```
+
+```{r child = 'childs/2_Definicao_do_Problema.Rmd'}
+
+```
+
+```{r child = 'childs/3_Planejamento.Rmd'}
+
+rmarkdown::render("childs/3_Planejamento.Rmd")
+
+```
+
+```{r child = 'childs/4_Coleta.Rmd'}
+rmarkdown::render("childs/4_Coleta.Rmd")
+
+```
+
+```{r child = 'childs/5_Analise_Exploratoria.Rmd'}
+rmarkdown::render("childs/5_Analise_Exploratoria.Rmd")
+
+```
+
+```{r child = 'childs/6_Pre_Processamento.Rmd'}
+rmarkdown::render("childs/6_Pre_Processamento.Rmd")
+
+```
+
+```{r child = 'childs/7_Modelagem.Rmd'}
+rmarkdown::render("childs/7_Modelagem.Rmd")
+
+```
+
+```{r child = 'childs/8_Otimizacao.Rmd'}
+
+rmarkdown::render("childs/8_Otimizacao.Rmd")
+
+```
+
+```{r child = 'childs/9_Apresentacao.Rmd'}
+
+rmarkdown::render("childs/9_Apresentacao.Rmd")
+```

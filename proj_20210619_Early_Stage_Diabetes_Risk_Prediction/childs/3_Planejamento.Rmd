@@ -1,0 +1,9 @@
+___
+# Planejamento
+
+___
+1. *Coleta de dados com StringAsFactor como false.*
+2. *Combinar os conjuntos de treino e teste.*
+3. *Limpeza e transformação das variáveis.*
+4. *Dividir os conjuntos novamente.*
+5. *Fazer a Análise Exploratória do conjunto de treino.*
