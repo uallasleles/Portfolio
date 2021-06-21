@@ -148,7 +148,7 @@ if(any(is.na(etl.full)))
 ```
 
 ```{r Mapa de Valores Missing, eval=FALSE, include=FALSE}
-missmap(etl.full)
+miss(etl.full)
 ```
 
 ___
